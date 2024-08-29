@@ -7,10 +7,10 @@ export default function NavBar() {
           <nav className='navbar'>
              <img src="/logo.png" alt="logo" className='logo'/>
              <div className="menu">
-                <Link className="nav_list">Home</Link>
-                <Link className="nav_list">Clients</Link>
-                <Link className="nav_list">Portfolio</Link>
-                <Link className="nav_list">About</Link>
+                <Link className="menu_list">Home</Link>
+                <Link className="menu_list">About</Link>
+                <Link className="menu_list">Portfolio</Link>
+                <Link className="menu_list">Clients</Link>
              </div>
              <button className='menu_btn'>
                      <img src="./contact.png" alt="img" className='btn_img'/> Contact Me
