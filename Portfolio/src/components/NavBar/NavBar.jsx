@@ -4,7 +4,8 @@ import {Link} from 'react-scroll';
 export default function NavBar() {
     return(
         <>
-          <nav className='navbar'>
+          <div className="nav_body">
+             <nav className='navbar'>
              <img src="/logo.png" alt="logo" className='logo'/>
              <div className="menu">
                 <Link className="menu_list">Home</Link>
@@ -16,7 +17,9 @@ export default function NavBar() {
                      <img src="./contact.png" alt="img" className='btn_img'/> Contact Me
              </button>
              
-          </nav>
+             </nav>
+          </div>
+         
         </>
     )
 }
