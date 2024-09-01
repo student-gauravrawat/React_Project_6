@@ -1,0 +1,92 @@
+#contact_page{
+    min-height: calc(100vh-4rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.clint_page_title{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.clint_desc{
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.clint_imgs{
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1.5rem; 
+    
+}
+
+.clint_img{
+    object-fit: cover;
+    width: 33%;
+    min-width: 15rem;
+  
+}
+
+#clients{
+     padding: 2rem;
+}
+
+.contact_desc{
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+
+}
+
+.contactform{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+}
+
+.name, .email, .msg{
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: rgb(40, 40, 40);
+    
+}
+
+.submit_btn{
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem 3.5rem;
+    margin: 2rem;
+}
+
+.links{
+    display: flex;
+    flex-wrap: wrap; 
+
+}
+
+.link{
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.75rem;
+}
